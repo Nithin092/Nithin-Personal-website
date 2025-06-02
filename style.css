@@ -8,15 +8,14 @@
 
 }
 
-/* a:link,
-a:visited {
-  color: black !important;
-  text-decoration: none !important;
-} */
+html {
+  scroll-behavior: smooth;
+}
+
 
 
 .full-navbar {
-  background-color: #d6dcdc;
+  background-color: #f3f8f8;
   width: 100%;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -25,7 +24,10 @@ a:visited {
 
 .navbar-brand {
   font-weight: bold;
-  font-size: 11px;
+    letter-spacing: 0;
+  word-spacing: 0;
+  white-space: nowrap;
+ 
 }
 
 .navbar-toggler {
@@ -37,12 +39,6 @@ a:visited {
   color: #F22561;
 }
 
-.navbar-brand {
-  letter-spacing: 0;
-  word-spacing: 0;
-  white-space: nowrap;
-  /* Keeps text in one line and prevents weird gaps */
-}
 
 
 .btn1 {
@@ -63,7 +59,7 @@ a:visited {
 
 }
 body{
-    background-color: #d6dcdc;
+    background-color: #f3f8f8;
 }
 
 .btn1:hover {
@@ -99,7 +95,7 @@ body{
 
 .navbar {
   /* light gray underline */
-  font-size: 10px;
+  font-size: 13px;
   font-weight: bold;
 
 
@@ -113,28 +109,24 @@ body{
 }
 
 .home-left img {
-  max-width: 100%;
-  /* Prevents overflow */
-  height: auto;
-  /* Maintains aspect ratio */
-  width: 100%;
-  /* Optional: fills container */
+  
+
+  height: 20rem;
   object-fit: contain;
   display: block;
   max-width: 25rem;
   justify-content: center;
+  margin: 0 auto;
   background-color: #fcfcfc42;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  transform: translateY(-50px);
+  transform: translateY(-30px);
 
 }
 
 
 
-
-
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .home {
     flex-direction: column;
     /* 👈 key part */
@@ -142,8 +134,8 @@ body{
   }
 
   .home-left img {
-    max-width: 80%;
-    margin-top: 1rem;
+    max-width: 100%;
+    margin-top: 0.5rem;
   }
 }
 
@@ -235,3 +227,5 @@ body{
     justify-content: center;
   }
 }
+
+/* About Section */

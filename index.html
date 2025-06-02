@@ -53,10 +53,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav mx-auto ">
             <li class="nav-item mx-2">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">about</a>
+              <a class="nav-link" href="#about">about</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="#">Portfolio</a>
@@ -75,7 +75,7 @@
       </div>
     </nav>
 
-<section class="home">
+<section class="home" id="home">
     <div class="home-right">
     <p style="color: rgb(87, 86, 86);">Welcome To My World</p>
 
@@ -115,14 +115,51 @@
 
 
 
-    <div class="home-left">
+    <div class="home-left  ">
 
-        <div class="img-card">
-     <img src="assets/nithin.png" alt="">
+          <div class="img-card col-12 col-md-5  order-1 order-md-2">
+     <img src="assets/nithin.png" class="img-fluid rounded" >
         </div>
         
 
     </div>
+
+</section>
+
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <h2 style="font-weight: 900; " class="text-center">
+          About <span style="color: #F22561; ">Me</span>
+        </h2>
+
+      <!-- Left: Image -->
+      <div class="col-12 col-md-5 text-center mb-4 mb-md-0">
+        <img src="/assets/gibbli-Photoroom.png" class="img-fluid rounded" alt="Your Photo" style="max-width: 19rem; height: auto;">
+      </div>
+
+      <!-- Right: Text and Button -->
+      <div class="col-12 col-md-7  d-block   mb-3 ">
+        
+        <p style="font-weight: 500;">
+          I'm a B.Tech graduate in Information Technology from Government Engineering College Idukki, with a strong foundation in Computer Engineering from my Diploma.
+          <br><br>
+          <span style="color: #F22561;">
+            I build smart, user-friendly applications and love turning ideas into real-world solutions. I'm also a passionate drawing artist, blending creativity with tech.
+          </span>
+          <br><br>
+          Always curious, I enjoy team collaboration, problem-solving, and staying updated with the latest in tech.
+        </p>
+        <a href="assets/Nithin_A_S_Resume.pdf" class="btn1 btn-primary mt-3" download>
+          Download CV
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 
 </section>
 </body>
